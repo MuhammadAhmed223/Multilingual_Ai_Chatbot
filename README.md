@@ -25,11 +25,7 @@
       source chatbot-env/bin/activate  # On Windows: chatbot-env\Scripts\activate
 
     # Install dependencies
-      pip install pandas numpy nltk googletrans==4.0.0-rc1 textblob spacy scikit-learn
-
-    # Download NLTK and spaCy resources
-      python -m nltk.downloader wordnet
-      python -m spacy download en_core_web_sm
+        pip install -r requirements.txt
 
 # 📂 Dataset
 
